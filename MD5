@@ -1,6 +1,6 @@
-a98292dd53924171c0e91eab74fb099a *DESCRIPTION
+6a063b4bf48fc3a5f7b02742874e4eeb *DESCRIPTION
 1db9c90d15628aa147c6f8ee676f5d14 *NAMESPACE
-804e495d1896da9d4db8f5b80782ec5a *NEWS.md
+b2686bd5f3ec5465287f46a711802965 *NEWS.md
 ccad90425b3d91d4f04f7f7789f80a00 *R/OptHoldoutSize_aspre.R
 eda36ad63f42b61b11f8d853bce066ab *R/OptHoldoutSize_emulation.R
 5f19dc2ebd43db123921c25f7e8208b1 *R/OptHoldoutSize_estimation.R
@@ -23,9 +23,9 @@ f9f2f114625205594f74f82d1913de95 *data/params_aspre.RData
 8e7b37dbc46b24f7ea4adcdc7751a516 *inst/doc/ASPRE_example.R
 f2c94fca2d3be7fb51c538c273d8649d *inst/doc/ASPRE_example.Rmd
 ccbf9c7333b8b0c78e05a4afb7c70064 *inst/doc/ASPRE_example.html
-b731e4940a939c0719ae4db6627691fe *inst/doc/comparison_of_algorithms.R
-9db75b79f0db92e5df8e3a693a92212f *inst/doc/comparison_of_algorithms.Rmd
-8752fd4089cac3829cf5a8a680ac3428 *inst/doc/comparison_of_algorithms.html
+4c94316a1959b9038dd692ffb1ed45b6 *inst/doc/comparison_of_algorithms.R
+530fcd88bf18058b3ef7f8db17917144 *inst/doc/comparison_of_algorithms.Rmd
+aec433b875e6d7f7d7322e712b7c3010 *inst/doc/comparison_of_algorithms.html
 4fc3f46ba646a6c659750a7bd3bb4224 *inst/doc/simulated_example.R
 628e5d91917ca80e0adb6979e2314ade *inst/doc/simulated_example.Rmd
 fba61cf1ddd31941003c1a89c0c03ba8 *inst/doc/simulated_example.html
@@ -74,6 +74,6 @@ c62f55eedce14294c73340e9319a3f60 *man/powersolve_general.Rd
 a047f337a06626b243c247020bfd0c87 *man/sim_random_aspre.Rd
 e55c843a96ef92375ac97c5cad53ae0d *man/split_data.Rd
 f2c94fca2d3be7fb51c538c273d8649d *vignettes/ASPRE_example.Rmd
-9db75b79f0db92e5df8e3a693a92212f *vignettes/comparison_of_algorithms.Rmd
+530fcd88bf18058b3ef7f8db17917144 *vignettes/comparison_of_algorithms.Rmd
 28d0701610e2978b3cdff82f8d5bcd25 *vignettes/optimal_holdout_sizing.bib
 628e5d91917ca80e0adb6979e2314ade *vignettes/simulated_example.Rmd
