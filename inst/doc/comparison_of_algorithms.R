@@ -43,7 +43,7 @@ lines(n,true_k2_pTRUE(n),type="l",col="black")
 lines(n,true_k2_pFALSE(n),type="l",col="red")
 legend("topright",c("Power law", "Not power law"),col=c("black","red"),lty=1,bty="n")
 
-## ---- echo=T------------------------------------------------------------------
+## ----echo=T-------------------------------------------------------------------
 nsamp=200 # Presume we have this many estimates of k_2(n), between 1000 and N
 vwmin=0.001; vwmax=0.02 # Sample variances var_k2 uniformly between these values
 
@@ -52,7 +52,7 @@ var_k2=runif(nsamp,vwmin,vwmax)
 k2_pTRUE=rnorm(nsamp,mean=true_k2_pTRUE(nset),sd=sqrt(var_k2))
 k2_pFALSE=rnorm(nsamp,mean=true_k2_pFALSE(nset),sd=sqrt(var_k2))
 
-## ---- echo=T------------------------------------------------------------------
+## ----echo=T-------------------------------------------------------------------
 nc=1000:N
 
 true_ohs_pTRUE=nc[which.min(k1*nc + true_k2_pTRUE(nc)*(N-nc))]
@@ -62,7 +62,7 @@ print(true_ohs_pTRUE)
 
 print(true_ohs_pFALSE)
 
-## ---- echo=T------------------------------------------------------------------
+## ----echo=T-------------------------------------------------------------------
 # Estimate a,b, and c from values nset and d
 est_abc_pTRUE=powersolve(nset,k2_pTRUE,
   lower=theta_lower,upper=theta_upper,init=theta_init)$par
@@ -87,7 +87,7 @@ print(true_ohs_pFALSE)
 print(param_ohs_pFALSE)
 print(emul_ohs_pFALSE)
 
-## ---- echo=FALSE,fig.width = 6,fig.height=5-----------------------------------
+## ----echo=FALSE,fig.width = 6,fig.height=5------------------------------------
 
 data(ohs_resample)
 
@@ -197,7 +197,7 @@ par(oldpar)
 #  
 #  par(oldpar)
 
-## ---- echo=FALSE,fig.width=10,fig.height=5------------------------------------
+## ----echo=FALSE,fig.width=10,fig.height=5-------------------------------------
 
 # Get saved data from code below
 data(data_nextpoint_par)
@@ -378,7 +378,7 @@ par(oldpar)
 #  
 #  par(oldpar)
 
-## ---- echo=FALSE,fig.width=10,fig.height=5------------------------------------
+## ----echo=FALSE,fig.width=10,fig.height=5-------------------------------------
 
 # Get saved data from code below
 data(data_nextpoint_em)

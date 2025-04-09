@@ -27,7 +27,7 @@ optimal_holdout_size(
 \item{...}{Passed to function \code{optimize}}
 }
 \value{
-List/data frame of dimension (number of evaluations) x (4 + n_par) containing input data and results. Columns \code{size} and \code{cost} are optimal holdout size and cost at this size respectively. Parameters N, k1, theta.1, theta.2,...,theta.{n_par} are input data.
+List/data frame of dimension (number of evaluations) x (4 + n_par) containing input data and results. Columns size and cost are optimal holdout size and cost at this size respectively. Parameters N, k1, theta.1, theta.2,...,theta.n_par are input data.
 }
 \description{
 Compute optimal holdout size for updating a predictive score given appropriate parameters of cost function

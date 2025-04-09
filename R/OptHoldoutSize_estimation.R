@@ -31,7 +31,7 @@
 ##' @param k2form Function governing expected cost to an individual sample given a predictive score fitted to n samples. Must take two arguments: n (number of samples) and theta (parameters). Defaults to a power-law form ``powerlaw(n,c(a,b,c))=a n^(-b) + c``.
 ##' @param round_result Set to TRUE to solve over integral sizes
 ##' @param ... Passed to function `optimize`
-##' @return List/data frame of dimension (number of evaluations) x (4 + n_par) containing input data and results. Columns `size` and `cost` are optimal holdout size and cost at this size respectively. Parameters N, k1, theta.1, theta.2,...,theta.{n_par} are input data.
+##' @return List/data frame of dimension (number of evaluations) x (4 + n_par) containing input data and results. Columns size and cost are optimal holdout size and cost at this size respectively. Parameters N, k1, theta.1, theta.2,...,theta.n_par are input data.
 ##' @examples
 ##'
 ##' # Evaluate optimal holdout set size for a range of values of k1 and two values of

@@ -2,11 +2,11 @@
 title: "ASPRE example"
 author: "Sami Haidar-Wehbe, Sam Emerson, Louis Aslett, James Liley"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output: pdf_document
 bibliography: optimal_holdout_sizing.bib
 vignette: >
  %\VignetteIndexEntry{ASPRE example}
- %\VignetteEngine{knitr::knitr}
+ %\VignetteEngine{knitr::rmarkdown}
  %\VignetteEncoding{UTF-8}
 ---
 
